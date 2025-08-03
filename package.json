@@ -1,0 +1,24 @@
+{
+  "name": "paxpass",
+  "version": "1.0.0",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^7.0.0",
+    "bootstrap": "^5.3.7",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-router-dom": "^6.15.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  }
+}

@@ -1,0 +1,211 @@
+:root {
+    --primary-color: #0056b3;
+    --secondary-color: #f8f9fa;
+    --accent-color: #17a2b8;
+    --text-color: #343a40;
+    --light-text: #f8f9fa;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--text-color);
+}
+
+/* Header Styles */
+.navbar {
+    background-color: var(--primary-color) !important;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    color: white !important;
+}
+
+.nav-link {
+    color: rgba(255, 255, 255, 0.85) !important;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: white !important;
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(rgba(0, 86, 179, 0.7), rgba(0, 86, 179, 0.5)), url('https://images.unsplash.com/photo-1540339832862-474599807836?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80') center/cover no-repeat;
+    color: white;
+    padding: 120px 0;
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin: 0 auto 30px;
+}
+
+/* Service Cards */
+.service-card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    height: 100%;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.service-icon {
+    font-size: 3rem;
+    color: var(--primary-color);
+    margin-bottom: 15px;
+}
+
+/* About Section */
+.about-section {
+    background-color: var(--secondary-color);
+    padding: 80px 0;
+}
+
+.about-img {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Booking Form */
+.booking-form {
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.booking-banner {
+    background: linear-gradient(rgba(0, 86, 179, 0.8), rgba(0, 86, 179, 0.6)), url('https://images.unsplash.com/photo-1436491865332-7a61a109cc05?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80') center/cover no-repeat;
+    padding: 80px 0;
+}
+
+/* Contact Section */
+.contact-info {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.contact-icon {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 40px 0 20px;
+}
+
+.footer-heading {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.footer-link {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+    transition: color 0.3s;
+}
+
+.footer-link:hover {
+    color: white;
+}
+
+.social-icon {
+    color: white;
+    font-size: 1.5rem;
+    margin-right: 15px;
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: var(--accent-color);
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    padding: 10px 25px;
+    font-weight: 600;
+}
+
+.btn-primary:hover {
+    background-color: #004494;
+    border-color: #004494;
+}
+
+/* Pricing Section */
+.pricing-card {
+    border: 1px solid #e9ecef;
+    border-radius: 10px;
+    padding: 30px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.pricing-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.price {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+/* Testimonials */
+.testimonial-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    height: 100%;
+}
+
+.testimonial-img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.quote-icon {
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    opacity: 0.3;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 80px 0;
+    }
+    
+    .hero-section h1 {
+        font-size: 2.5rem;
+    }
+}
