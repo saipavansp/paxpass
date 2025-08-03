@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { mainImage } from '../assets/images';
 
 const Booking = () => {
   const [formData, setFormData] = useState({
@@ -56,7 +55,7 @@ const Booking = () => {
     <>
       {/* Booking Hero */}
       <section className="py-5 booking-banner" style={{ 
-        background: `linear-gradient(rgba(0, 86, 179, 0.7), rgba(0, 86, 179, 0.5)), url(${mainImage}) center/cover no-repeat`
+        background: 'linear-gradient(rgba(0, 86, 179, 0.7), rgba(0, 86, 179, 0.5)), url("https://images.unsplash.com/photo-1540339832862-474599807836?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80") center/cover no-repeat'
       }}>
         <div className="container text-center text-white">
           <h1 className="display-5 fw-bold">Book Our Service</h1>

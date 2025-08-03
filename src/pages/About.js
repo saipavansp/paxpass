@@ -1,13 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { mainImage, flightImage } from '../assets/images';
 
 const About = () => {
   return (
     <>
       {/* About Hero */}
       <section className="py-5 booking-banner" style={{ 
-        background: `linear-gradient(rgba(0, 86, 179, 0.7), rgba(0, 86, 179, 0.5)), url(${mainImage}) center/cover no-repeat`
+        background: 'linear-gradient(rgba(0, 86, 179, 0.7), rgba(0, 86, 179, 0.5)), url("https://images.unsplash.com/photo-1540339832862-474599807836?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80") center/cover no-repeat'
       }}>
         <div className="container text-center text-white">
           <h1 className="display-5 fw-bold">About PaxPass</h1>
@@ -38,7 +37,7 @@ const About = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 order-lg-2 mb-4 mb-lg-0">
-              <img src={flightImage} alt="Professional Airport Service" className="img-fluid rounded-3 about-img" />
+              <img src="https://images.unsplash.com/photo-1530521954074-e64f6810b32d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Professional Airport Service" className="img-fluid rounded-3 about-img" />
             </div>
             <div className="col-lg-6 order-lg-1">
               <h2 className="display-6 fw-bold mb-4">Our Mission</h2>
@@ -207,7 +206,7 @@ const About = () => {
 
       {/* CTA Section */}
       <section className="py-5 booking-banner" style={{ 
-        background: `linear-gradient(rgba(0, 86, 179, 0.7), rgba(0, 86, 179, 0.5)), url(${mainImage}) center/cover no-repeat`
+        background: 'linear-gradient(rgba(0, 86, 179, 0.7), rgba(0, 86, 179, 0.5)), url("https://images.unsplash.com/photo-1540339832862-474599807836?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80") center/cover no-repeat'
       }}>
         <div className="container text-center text-white">
           <h2 className="display-5 fw-bold mb-4">Ready to Experience Hassle-Free Travel?</h2>
