@@ -154,11 +154,8 @@ const Home = () => {
       {/* Family Travel Section */}
       <section className="py-5 bg-light">
         <div className="container">
-          <div className="row align-items-center">
-            <div className="col-lg-6 mb-4 mb-lg-0">
-              <img src="https://img.freepik.com/free-photo/family-airport-waiting-their-flight_23-2149091580.jpg" alt="Family at airport ready for travel" className="img-fluid rounded-3" />
-            </div>
-            <div className="col-lg-6">
+          <div className="row align-items-center">            
+            <div className="col-lg-12">
               <h2 className="display-5 fw-bold mb-4">Family Travel Made Easy</h2>
               <p className="lead">Traveling with family shouldn't be stressful. Let us handle the heavy lifting.</p>
               <p>With PaxPass, families can focus on creating memories instead of managing multiple pieces of luggage. Our service is especially beneficial for families with young children, elderly members, or anyone who wants to make their journey more comfortable.</p>

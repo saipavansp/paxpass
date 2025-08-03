@@ -36,9 +36,6 @@ const About = () => {
       <section className="py-5 bg-light">
         <div className="container">
           <div className="row align-items-center">
-            <div className="col-lg-6 order-lg-2 mb-4 mb-lg-0">
-              <img src="https://images.unsplash.com/photo-1530521954074-e64f6810b32d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Professional Airport Service" className="img-fluid rounded-3 about-img" />
-            </div>
             <div className="col-lg-6 order-lg-1">
               <h2 className="display-6 fw-bold mb-4">Our Mission</h2>
               <p className="lead mb-4">To transform the travel experience by providing reliable, convenient, and secure luggage assistance services.</p>
