@@ -53,7 +53,7 @@ const Footer = () => {
                 <i className="fas fa-envelope me-2"></i> support@paxpass.in
               </li>
               <li className="mb-2">
-                <i className="fas fa-map-marker-alt me-2"></i> Mumbai, India
+                <i className="fas fa-map-marker-alt me-2"></i> Hyderabad, India
               </li>
             </ul>
           </div>

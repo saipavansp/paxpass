@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { familyImage } from '../assets/images';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -36,7 +37,7 @@ const Contact = () => {
     <>
       {/* Contact Hero */}
       <section className="py-5 booking-banner" style={{ 
-        background: 'linear-gradient(rgba(0, 86, 179, 0.7), rgba(0, 86, 179, 0.5)), url("/images/family.jpg") center/cover no-repeat'
+        background: `linear-gradient(rgba(0, 86, 179, 0.7), rgba(0, 86, 179, 0.5)), url(${familyImage}) center/cover no-repeat`
       }}>
         <div className="container text-center text-white">
           <h1 className="display-5 fw-bold">Contact Us</h1>
@@ -79,7 +80,7 @@ const Contact = () => {
                     <i className="fas fa-map-marker-alt"></i>
                   </div>
                   <h3 className="h4">Office</h3>
-                  <p className="mb-0">Mumbai, India</p>
+                  <p className="mb-0">Hyderabad, India</p>
                   <p className="text-light">Serving all major cities</p>
                 </div>
               </div>
@@ -225,7 +226,7 @@ const Contact = () => {
                   </h2>
                   <div id="collapseFour" className="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
                     <div className="accordion-body">
-                      We currently operate in Mumbai, Delhi, Bangalore, Hyderabad, Chennai, Kolkata, Pune, and Ahmedabad. We're continuously expanding to more cities across India.
+                      We currently operate in Hyderabad, Mumbai, Delhi, Bangalore, Chennai, Kolkata, Pune, and Ahmedabad. We're continuously expanding to more cities across India.
                     </div>
                   </div>
                 </div>
