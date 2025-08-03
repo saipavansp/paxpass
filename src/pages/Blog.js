@@ -6,7 +6,7 @@ const Blog = () => {
     <>
       {/* Blog Hero */}
       <section className="py-5 booking-banner" style={{ 
-        background: 'linear-gradient(rgba(0, 86, 179, 0.7), rgba(0, 86, 179, 0.5)), url("../public/images/main.jpg") center/cover no-repeat'
+        background: 'linear-gradient(rgba(0, 86, 179, 0.7), rgba(0, 86, 179, 0.5)), url("/images/main.jpg") center/cover no-repeat'
       }}>
         <div className="container text-center text-white">
           <h1 className="display-5 fw-bold">PaxPass Blog</h1>
@@ -23,7 +23,7 @@ const Blog = () => {
               <div className="card border-0 shadow-sm overflow-hidden">
                 <div className="row g-0">
                   <div className="col-md-4">
-                    <img src="../public/images/main.jpg" className="img-fluid h-100 object-cover" alt="Blog featured" style={{ objectFit: 'cover' }} />
+                    <img src="/images/main.jpg" className="img-fluid h-100 object-cover" alt="Blog featured" style={{ objectFit: 'cover' }} />
                   </div>
                   <div className="col-md-8">
                     <div className="card-body p-4">
@@ -41,7 +41,7 @@ const Blog = () => {
             {/* Blog Post 1 */}
             <div className="col-lg-4 col-md-6">
               <div className="card border-0 shadow-sm h-100">
-                <img src="../public/images/family.jpg" className="card-img-top" alt="Blog post" />
+                <img src="/images/family.jpg" className="card-img-top" alt="Blog post" />
                 <div className="card-body p-4">
                   <h6 className="text-primary mb-2">FAMILY TRAVEL</h6>
                   <h3 className="card-title h4">Family Travel Made Easy: Tips for Parents</h3>
@@ -57,7 +57,7 @@ const Blog = () => {
             {/* Blog Post 2 */}
             <div className="col-lg-4 col-md-6">
               <div className="card border-0 shadow-sm h-100">
-                <img src="../public/images/flight.jpg" className="card-img-top" alt="Blog post" />
+                <img src="/images/flight.jpg" className="card-img-top" alt="Blog post" />
                 <div className="card-body p-4">
                   <h6 className="text-primary mb-2">BUSINESS TRAVEL</h6>
                   <h3 className="card-title h4">How PaxPass is Revolutionizing Business Travel</h3>
@@ -73,7 +73,7 @@ const Blog = () => {
             {/* Blog Post 3 */}
             <div className="col-lg-4 col-md-6">
               <div className="card border-0 shadow-sm h-100">
-                <img src="../public/images/main.jpg" className="card-img-top" alt="Blog post" />
+                <img src="/images/main.jpg" className="card-img-top" alt="Blog post" />
                 <div className="card-body p-4">
                   <h6 className="text-primary mb-2">PACKING TIPS</h6>
                   <h3 className="card-title h4">The Ultimate Packing Guide for Every Type of Traveler</h3>
@@ -167,7 +167,7 @@ const Blog = () => {
                 <h2 className="display-5 fw-bold mb-4">5 Ways to Make Your Airport Experience Stress-Free</h2>
                 <p className="text-muted mb-4">August 3, 2023 • 5 min read • By PaxPass Team</p>
                 
-                <img src="../public/images/main.jpg" alt="Airport experience" className="img-fluid rounded-3 mb-4" />
+                <img src="/images/main.jpg" alt="Airport experience" className="img-fluid rounded-3 mb-4" />
                 
                 <p className="lead mb-4">Air travel can be stressful, especially when you're juggling multiple pieces of luggage. At PaxPass, we understand the challenges travelers face and have developed solutions to make your journey smoother.</p>
                 

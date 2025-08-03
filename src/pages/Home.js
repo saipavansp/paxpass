@@ -6,7 +6,7 @@ const Home = () => {
     <>
       {/* Hero Section */}
       <section className="hero-section" style={{ 
-        background: 'linear-gradient(rgba(0, 86, 179, 0.7), rgba(0, 86, 179, 0.5)), url("../public/images/main.jpg") center/cover no-repeat'
+        background: 'linear-gradient(rgba(0, 86, 179, 0.7), rgba(0, 86, 179, 0.5)), url("/images/main.jpg") center/cover no-repeat'
       }}>
         <div className="container">
           <h1>Travel Light, Travel Right</h1>
@@ -156,7 +156,7 @@ const Home = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 mb-4 mb-lg-0">
-              <img src="../public/images/family.jpg" alt="Family ready for travel" className="img-fluid rounded-3" />
+              <img src="/images/family.jpg" alt="Family ready for travel" className="img-fluid rounded-3" />
             </div>
             <div className="col-lg-6">
               <h2 className="display-5 fw-bold mb-4">Family Travel Made Easy</h2>
@@ -215,7 +215,7 @@ const Home = () => {
 
       {/* CTA Section */}
       <section className="py-5 booking-banner" style={{ 
-        background: 'linear-gradient(rgba(0, 86, 179, 0.7), rgba(0, 86, 179, 0.5)), url("../public/images/main.jpg") center/cover no-repeat'
+        background: 'linear-gradient(rgba(0, 86, 179, 0.7), rgba(0, 86, 179, 0.5)), url("/images/main.jpg") center/cover no-repeat'
       }}>
         <div className="container text-center text-white">
           <h2 className="display-5 fw-bold mb-4">Ready to Travel Stress-Free?</h2>

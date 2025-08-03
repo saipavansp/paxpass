@@ -36,7 +36,7 @@ const Contact = () => {
     <>
       {/* Contact Hero */}
       <section className="py-5 booking-banner" style={{ 
-        background: 'linear-gradient(rgba(0, 86, 179, 0.7), rgba(0, 86, 179, 0.5)), url("../public/images/family.jpg") center/cover no-repeat'
+        background: 'linear-gradient(rgba(0, 86, 179, 0.7), rgba(0, 86, 179, 0.5)), url("/images/family.jpg") center/cover no-repeat'
       }}>
         <div className="container text-center text-white">
           <h1 className="display-5 fw-bold">Contact Us</h1>
