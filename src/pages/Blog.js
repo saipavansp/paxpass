@@ -41,7 +41,7 @@ const Blog = () => {
             {/* Blog Post 1 */}
             <div className="col-lg-4 col-md-6">
               <div className="card border-0 shadow-sm h-100">
-                <img src="https://images.unsplash.com/photo-1622127922040-13cab637ee78?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" className="card-img-top" alt="Blog post" />
+                <img src="https://img.freepik.com/free-photo/family-airport-waiting-their-flight_23-2149091580.jpg" className="card-img-top" alt="Family at airport" />
                 <div className="card-body p-4">
                   <h6 className="text-primary mb-2">FAMILY TRAVEL</h6>
                   <h3 className="card-title h4">Family Travel Made Easy: Tips for Parents</h3>

@@ -156,7 +156,7 @@ const Home = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 mb-4 mb-lg-0">
-              <img src="https://images.unsplash.com/photo-1622127922040-13cab637ee78?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Family ready for travel" className="img-fluid rounded-3" />
+              <img src="https://img.freepik.com/free-photo/family-airport-waiting-their-flight_23-2149091580.jpg" alt="Family at airport ready for travel" className="img-fluid rounded-3" />
             </div>
             <div className="col-lg-6">
               <h2 className="display-5 fw-bold mb-4">Family Travel Made Easy</h2>
