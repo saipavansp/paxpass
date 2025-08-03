@@ -9,7 +9,7 @@ const Home = () => {
         background: 'linear-gradient(rgba(0, 86, 179, 0.7), rgba(0, 86, 179, 0.5)), url("https://images.unsplash.com/photo-1540339832862-474599807836?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80") center/cover no-repeat'
       }}>
         <div className="container">
-          <h1>Travel Light, Travel Right</h1>
+          <h1>Travel Light, Travel Right with PaxPass</h1>
           <p>Let PaxPass handle your luggage while you focus on your journey. We pick up your bags from home and deliver them to the airport, and vice versa.</p>
           <Link to="/booking" className="btn btn-light btn-lg">Book Now</Link>
         </div>
